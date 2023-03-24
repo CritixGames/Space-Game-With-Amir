@@ -339,7 +339,11 @@ Terrain:
   m_GameObject: {fileID: 1101298437}
   m_Enabled: 1
   serializedVersion: 6
+<<<<<<< Updated upstream
   m_TerrainData: {fileID: 0}
+=======
+  m_TerrainData: {fileID: 15600000, guid: 0d09e37ca733b0148ace757a5007dde3, type: 2}
+>>>>>>> Stashed changes
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
