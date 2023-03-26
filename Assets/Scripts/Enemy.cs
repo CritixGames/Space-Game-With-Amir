@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] GameObject deathVFX;
+    [SerializeField] GameObject deathFX;
     [SerializeField] GameObject hitVFX;
 
     
@@ -54,8 +54,8 @@ public class Enemy : MonoBehaviour
     {
         //VFX SECTION
         //Instantiate Explosion on Enemy at position with no rotation (IDENTITY)
-        GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parentGameObject.transform; //Parent of this vfx will be our initiated parent variable
+        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
+        fx.transform.parent = parentGameObject.transform; //Parent of this vfx will be our initiated parent variable
         
         //Death Section
         Destroy(this.gameObject);

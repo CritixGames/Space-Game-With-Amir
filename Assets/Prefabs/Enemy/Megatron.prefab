@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 4925786430114644260}
   - component: {fileID: 4933819364888110080}
   - component: {fileID: 6408897079936412219}
+  - component: {fileID: 5396780}
   m_Layer: 0
   m_Name: Megatron
   m_TagString: Untagged
@@ -365,11 +366,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb3bb8dc43e9b0742ab167a8bc1d35fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: 93d2611bc5a63e74c897972daae04f01, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: 93d2611bc5a63e74c897972daae04f01, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 8b8ed45453390684baf396cdf4c7b460, type: 3}
-  parent: {fileID: 0}
-  scorePerHit: 100
-  hitPoints: 20
+  scorePerHit: 10
+  hitPoints: 150
+--- !u!95 &5396780
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4911722905382034832}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5363297585528519672
 GameObject:
   m_ObjectHideFlags: 0

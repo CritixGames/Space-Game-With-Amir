@@ -359,9 +359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb3bb8dc43e9b0742ab167a8bc1d35fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: 93d2611bc5a63e74c897972daae04f01, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: 93d2611bc5a63e74c897972daae04f01, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 8b8ed45453390684baf396cdf4c7b460, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 1000
   hitPoints: 1
 --- !u!1 &2804395641143764618
